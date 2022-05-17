@@ -114,6 +114,8 @@ for idx in tqdm(range(len(sample_list))):
                               depth_edge_model,
                               depth_edge_model,
                               depth_feat_model)
+        print(f"Writing depth ply end... at {time.time()}")
+        return
 
         if rt_info is False:
             continue
